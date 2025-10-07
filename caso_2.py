@@ -7,6 +7,13 @@ def media(numeros):
         total += n
     return total / len(numeros)
 
+# TODO: Usa /doc para documentar "media" con docstring estilo Google o NumPy.
+# TODO: Usa /test para generar pruebas (pytest) cubriendo casos borde:
+#   - lista vacía (debe lanzar error)
+#   - lista con un elemento
+#   - lista con números negativos
+#   - lista con floats
+
 
 
 """

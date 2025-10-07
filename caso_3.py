@@ -11,9 +11,11 @@ def contar_palabras(texto):
             conteo[p] = conteo[p] + 1
         else:
             conteo[p] = 1
-
+    # Sugerencia para Copilot: devolver top-k palabras como lista de tuplas ordenada
     return conteo
 
+# TODO: /optimize proponer uso de collections.Counter, normalización más robusta,
+#       quitar signos de puntuación, soportar diferentes idiomas, etc.
 
 
 """

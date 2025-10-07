@@ -16,6 +16,7 @@ def filtrar_registros(registros, campo, umbral):
             if r[campo] > umbral:
                 filtrados.append(r)
         except Exception as e:
+            # TODO: pide a Copilot estrategias de manejo de errores y logging
             pass
     return filtrados
 

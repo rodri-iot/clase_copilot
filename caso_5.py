@@ -1,6 +1,7 @@
 # CASO 5: "Mini-API" para documentar y generar README con /doc
 
 class Calculadora:
+    # TODO: Usa /doc para generar docstrings y /test para pruebas unitarias.
     def sumar(self, a, b):
         return a + b
 

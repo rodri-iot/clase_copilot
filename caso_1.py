@@ -4,7 +4,7 @@
 def sumar_lista(numeros):
     # BUG: uso de variable equivocada y ausencia de validaciones
     suma = 0
-    for n in numeros:  # <--- debería ser "numeros"
+    for n in numeros:
         suma += n
     return suma
 
